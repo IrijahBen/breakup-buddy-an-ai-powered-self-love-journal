@@ -1,14 +1,15 @@
 # breakup-buddy-an-ai-powered-self-love-journal
 https://www.kaggle.com/competitions/gen-ai-intensive-course-capstone-2025q1
-README.md
- Breakup Buddy: An AI-Powered Self-Love Journal
+
+#README.md
+ #Breakup Buddy: An AI-Powered Self-Love Journal
 For Breakups & Divorce Recovery
 Whether you're grieving a love lost or just feeling emotionally overwhelmed, this app is here to help you process, grow, and heal.
 
-Why This Matters
+#Why This Matters
 Breakups and heartbreak can be quietly devastating.  Not everyone has a friend they can talk to.  This app is a private, judgment-free space to express, reflect, and heal, with the help of compassionate generative AI.
 
-What This App Does
+#What This App Does
 This app is designed to help you:
 
 Reflect daily through journaling
@@ -21,7 +22,7 @@ Track your emotional healing over time
 
 Retrieve past thoughts that match your current mood
 
-Features
+#Features
 Gradio UI
 
 Gemini LLM reflections
@@ -38,7 +39,7 @@ Chroma vector search for past reflections
 
 Poetic cover & gentle UX
 
-Generative AI Capabilities Used
+#Generative AI Capabilities Used
 Few-shot prompting: Guiding Gemini to act like an empathetic friend
 
 Embeddings + ChromaDB: Store and retrieve journal entries based on similarity
@@ -47,7 +48,7 @@ Controlled generation: Generate affirmations and poetic letters
 
 RAG-style retrieval: Matching current thoughts to past reflections
 
-Tech Stack
+#Tech Stack
 Gradio: For the interactive web interface
 
 Gemini Pro (via Google Generative AI API): To generate emotionally intelligent reflections
@@ -56,14 +57,14 @@ Chroma DB: To store and retrieve past reflections with similarity search
 
 CSV (Pandas): For journaling history and tracking progress
 
-How It Works
+#How It Works
 Journaling
 
 Users write freely about their feelings.
 
 Gemini reflects back with a kind, encouraging response tailored to their mood.
 
-Logging
+#Logging
 
 Each entry (date, mood, text) is saved to a CSV. The app tracks how often you show up to write.
 
